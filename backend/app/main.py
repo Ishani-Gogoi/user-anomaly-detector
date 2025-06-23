@@ -59,7 +59,7 @@ app = FastAPI(title="User Pattern Analyzer API")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://pattern-analyzer-for-u-git-409984-anwesha-changkakotis-projects.vercel.app"],
+    allow_origins=["https://user-anomaly-detector-git-main-ishani-gogois-projects.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
